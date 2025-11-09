@@ -49,7 +49,7 @@ ul li a:hover {
  border-radius: 1rem;
  overflow: visible;
  background: rgba(0, 0, 0, 0.5);
- background: var(--background);
+ 
  position: relative;
  z-index: 1;
  margin-top: 80px;
@@ -74,9 +74,8 @@ ul li a:hover {
 }
 
 .card-info {
- --color:black;
- background: var(--color);
- color: var(--color);
+ --color:rgba(10, 9, 9, 0.8);
+
  justify-items: center;
   align-items: center;
  width: 100%;
@@ -109,8 +108,8 @@ h1{
  padding: 5px;
  border-radius: 1rem;
  overflow: visible;
- background: #f7ba2b;
- background: var(--background);
+ background: rgba(0, 0, 0, 0.5);
+ 
  position: relative;
  z-index: 1;
  margin-top: 80px;
@@ -153,8 +152,8 @@ h1{
  padding: 5px;
  border-radius: 1rem;
  overflow: visible;
- background: #f7ba2b;
- background: var(--background);
+ background: rgba(0, 0, 0, 0.5);
+ 
  position: relative;
  z-index: 1;
  margin-top: 80px;

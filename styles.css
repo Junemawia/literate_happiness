@@ -20,24 +20,25 @@ body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(44, 143, 168, 0.8);
+  background-color: rgba(231, 235, 238, 0.8);
 }
 
 ul li {
   float: left;
-  gap: 90px;
+  gap: 150px;
 }
 
 ul li a {
   display: block;
-  color: white;
+  color: rgb(250, 28, 139);
   text-align: center;
+  justify-content: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #26b1f1;
 }
 
 

@@ -268,7 +268,20 @@ margin-left: 800px;
 gap: 100px;
 }
 
-
+#wishme {
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  width: 80%;
+  box-sizing: border-box;
+  background-color: rgba(231, 235, 238, 0.2);
+}
+.lbl{
+  color: white;
+  font-size: 20px;
+}
 
 
 

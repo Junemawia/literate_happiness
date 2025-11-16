@@ -269,7 +269,7 @@ gap: 100px;
 }
 
 #wishme {
-  margin-top: 20px;
+  margin-left: 80px;
   border-radius: 10px;
   padding: 10px;
   font-size: 16px;
@@ -277,10 +277,12 @@ gap: 100px;
   width: 80%;
   box-sizing: border-box;
   background-color: rgba(231, 235, 238, 0.2);
+  margin-top: 100px;
 }
 .lbl{
   color: white;
   font-size: 20px;
+  justify-content: center
 }
 
 

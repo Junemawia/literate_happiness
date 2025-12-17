@@ -24,12 +24,30 @@
     </div>
     <textarea id="wishme" name="wish me" rows="4" cols="50" placeholder="Write your wish message here..."></textarea>
     <div class="btn">
-   <button>Send via WhatsApp</button>
+   <button type="button">Send via WhatsApp</button>
    </div>
    </div>
  
 </div>
 
+<script>
+// JavaScript for sending wishes via WhatsApp
+const buttons = document.querySelectorAll('.btn button');
+buttons.forEach(button => {
+    button.addEventListener('click', function() {
+        const textarea = document.getElementById('wishme');
+        if (textarea) {
+            const message = textarea.value.trim();
+            if (message) {
+                const url = `https://wa.me/254706564588?text=${encodeURIComponent(message)}`;
+                window.open(url, '_blank');
+            } else {
+                alert('Please write a wish message first!');
+            }
+        }
+    });
+});
+</script>
     
 </body>
-</html>
+</html>L

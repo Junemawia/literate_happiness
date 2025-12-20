@@ -302,11 +302,112 @@ gap: 100px;
   justify-content: center;
 }
 
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll; /* Disable fixed background on mobile for better performance */
+  }
 
+  ul li {
+    float: none;
+    display: block;
+    text-align: center;
+  }
 
+  ul li a {
+    padding: 10px;
+    font-size: 14px;
+  }
 
+  .card1, .card2, .card3 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+    height: auto;
+    min-height: 300px;
+  }
 
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
 
+  h2 {
+    font-size: 1em;
+    line-height: 1.4;
+  }
 
+  .images {
+    flex-direction: column;
+    gap: 10px;
+  }
 
+  .images img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    margin: 10px auto;
+  }
+
+  .button {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .socials {
+    margin-left: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .socials a {
+    font-size: 24px;
+  }
+
+  #wishme {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .lbl {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .btn {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card1, .card2, .card3 {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  h2 {
+    font-size: 0.9em;
+  }
+
+  .button, .btn {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+}
 
